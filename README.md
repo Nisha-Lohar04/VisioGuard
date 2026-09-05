@@ -224,15 +224,15 @@ Monitoring       │
 
 ---
 
-# 📸 Application Screenshots
+## 📸 Application Screenshots
 
-## 🔐 User Login
+### 🔐 User Login
 
 ![User Login](https://raw.githubusercontent.com/Nisha-Lohar04/VisioGuard/main/screenshots/01-User_Login_Page.png)
 
 ---
 
-## 📊 Dashboard
+### 📊 Dashboard
 
 ![Dashboard](https://raw.githubusercontent.com/Nisha-Lohar04/VisioGuard/main/screenshots/02-Dashboard_Home_Page.png)
 
@@ -240,7 +240,7 @@ The centralized dashboard provides an interface for monitoring surveillance acti
 
 ---
 
-## 🔪 Knife Detection
+### 🔪 Knife Detection
 
 ![Knife Detection](https://raw.githubusercontent.com/Nisha-Lohar04/VisioGuard/main/screenshots/03-Knife_Detection_Result.jpeg)
 
@@ -248,7 +248,7 @@ AI-assisted object detection is used to identify suspicious objects in surveilla
 
 ---
 
-## 🔫 Gun Detection
+### 🔫 Gun Detection
 
 ![Gun Detection](https://raw.githubusercontent.com/Nisha-Lohar04/VisioGuard/main/screenshots/04-Gun_Detection_Result.jpeg)
 
@@ -256,7 +256,7 @@ The system analyzes video frames and provides detection results for identified t
 
 ---
 
-## 👊 Fight Detection
+### 👊 Fight Detection
 
 ![Fight Detection](https://raw.githubusercontent.com/Nisha-Lohar04/VisioGuard/main/screenshots/05-Fight_Detection_Result.png)
 
@@ -264,7 +264,7 @@ VisioGuard includes anomaly and activity analysis to identify potentially violen
 
 ---
 
-## 🚨 Alert Notification
+### 🚨 Alert Notification
 
 ![Alert Notification](https://raw.githubusercontent.com/Nisha-Lohar04/VisioGuard/main/screenshots/06-Alert_Notification.png)
 
@@ -272,7 +272,7 @@ When a suspicious incident is detected, the system generates alerts to support f
 
 ---
 
-## 📋 Event History
+### 📋 Event History
 
 ![Event History](https://raw.githubusercontent.com/Nisha-Lohar04/VisioGuard/main/screenshots/07-Event_History.png)
 
