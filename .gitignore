@@ -1,0 +1,46 @@
+# Environment variables and secrets
+.env
+.env.*
+*.env
+
+# API keys and credentials
+secrets/
+credentials/
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Model files
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Large datasets
+datasets/
+data/
