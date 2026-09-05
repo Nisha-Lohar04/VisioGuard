@@ -143,46 +143,6 @@ The dashboard provides a centralized interface for:
 
 ---
 
-# 🏗️ System Architecture
-
-VisioGuard follows a modular architecture where different components work together to support real-time surveillance and incident management.
-
-```text
-                    ┌─────────────────────┐
-                    │ CCTV / IP / Webcam │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │ Video Acquisition   │
-                    │      OpenCV         │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │ AI Detection Engine │
-                    │      YOLOv11        │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │ Anomaly & Activity  │
-                    │      Analysis       │
-                    └──────────┬──────────┘
-                               │
-                ┌──────────────┼──────────────┐
-                ▼              ▼              ▼
-        ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
-        │   Alerts    │ │ Event Logs  │ │  Evidence   │
-        │ & Notify    │ │ & Database  │ │   Storage   │
-        └──────┬──────┘ └──────┬──────┘ └──────┬──────┘
-               └───────────────┼───────────────┘
-                               ▼
-                    ┌─────────────────────┐
-                    │ Monitoring Dashboard│
-                    └─────────────────────┘
-```
-
 ## 🏗️ System Architecture Diagram
 
 ![System Architecture](docs/architecture/System_Architecture.jpg)
